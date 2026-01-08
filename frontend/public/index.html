@@ -1,26 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#6366f1" />
-    <meta name="description" content="InternFair - Discover scholarships tailored to your profile. Find the perfect funding opportunity for your education with intelligent recommendations." />
-    <meta name="keywords" content="scholarships, education funding, student aid, financial assistance, college scholarships" />
-    <meta name="author" content="InternFair" />
-    
-    <!-- Open Graph / Social Media -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="InternFair - Scholarship Finder & Recommendation Platform" />
-    <meta property="og:description" content="Discover scholarships tailored to your profile with intelligent AI-powered recommendations" />
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
-    
-    <title>InternFair - Scholarship Finder & Recommendation Platform</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#6366f1" />
+  <meta name="description"
+    content="InternFair - Discover scholarships tailored to your profile. Find the perfect funding opportunity for your education with intelligent recommendations." />
+  <meta name="keywords"
+    content="scholarships, education funding, student aid, financial assistance, college scholarships" />
+  <meta name="author" content="InternFair" />
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="InternFair - Scholarship Finder & Recommendation Platform" />
+  <meta property="og:description"
+    content="Discover scholarships tailored to your profile with intelligent AI-powered recommendations" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Suppress ResizeObserver warnings -->
+  <script>
+    // Suppress harmless ResizeObserver warnings that appear in React apps with animations
+    window.addEventListener('error', function (e) {
+      if (e.message && e.message.includes('ResizeObserver loop')) {
+        e.stopImmediatePropagation();
+        e.preventDefault();
+      }
+    });
+  </script>
+
+  <title>InternFair - Scholarship Finder & Recommendation Platform</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+</body>
+
 </html>
