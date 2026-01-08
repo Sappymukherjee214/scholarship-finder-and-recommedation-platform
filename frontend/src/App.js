@@ -11,6 +11,7 @@ import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
 import Scholarships from './pages/Scholarships';
 import Profile from './pages/Profile';
+import NotFound from './pages/NotFound';
 
 import './index.css';
 
@@ -49,6 +50,7 @@ function App() {
                                 </PrivateRoute>
                             }
                         />
+                        <Route path="*" element={<NotFound />} />
                     </Routes>
                 </div>
             </Router>
